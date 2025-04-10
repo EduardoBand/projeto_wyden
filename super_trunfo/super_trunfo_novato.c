@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main() {
+    /*
+    Essa função lê os dados de duas cartas do jogo Super Trunfo e imprime na tela.
+
+    Retorna: 0
+    
+    */
     char codigo_carta1[4], codigo_carta2[4];
     char estado1[2], estado2[2];
     char nome_cidade1[20], nome_cidade2[20];
@@ -48,6 +54,10 @@ int main() {
 
     printf("Digite a quantidade de pontos turísticos da cidade 2: ");
     scanf("%d", &pontos_turisticos2);
+
+    /*
+    Impressão dos dados das cartas como pedido no enunciado do desafio.
+    */
 
     printf("Carta 1\n");
     printf("Estado: %s\n", estado1);
