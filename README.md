@@ -2,29 +2,41 @@
 
 Bem-vindo ao repositório **Projetos C - Wyden**, uma coleção de códigos desenvolvidos durante os estudos de programação na **Faculdade Wyden**. Aqui você encontrará projetos voltados ao aprendizado dos conceitos fundamentais da linguagem **C**, como matrizes, loops, condicionais, funções e organização de código.
 
-## 🚢 Desafio Batalha Naval
+## 🚢 Batalha Naval
 
-Um dos principais projetos deste repositório é o **Batalha Naval**, desenvolvido em três níveis de complexidade:
+Este projeto simula o posicionamento de navios em um tabuleiro 10x10, com diferentes níveis:
 
-### 🟢 Nível Novato
-- Criação de um tabuleiro 10x10
-- Posicionamento de navios horizontal e vertical
-- Validação de limites e sobreposição
+- **Novato:** posicionamento de 2 navios (um horizontal e um vertical) com validações básicas.
+- **Aventureiro:** posicionamento de 4 navios, incluindo diagonais.
+- **Mestre:** adição de habilidades especiais com áreas de efeito (cone, cruz, octaedro) sobre o tabuleiro.
 
-### 🔵 Nível Aventureiro
-- Inclusão de navios diagonais
-- Posições seguras e sem colisões
-- Exibição do tabuleiro completo com navios visíveis (`3` = navio, `0` = água)
-
-### 🔴 Nível Mestre
-- Habilidades especiais com **área de efeito**
-- Matrizes com **Cone**, **Cruz** e **Octaedro**
-- Sobreposição inteligente com valor `5` indicando a área afetada
-- Exibição visual do tabuleiro com múltiplos tipos de marcação
+📌 *Conceitos abordados:* matrizes bidimensionais, estruturas condicionais, validações de coordenadas, visualização gráfica em ASCII.
 
 ---
 
-## 📁 Estrutura dos Arquivos
+## 🃏 Super Trunfo
+
+Uma versão básica do famoso jogo **Super Trunfo**, com as seguintes fases:
+
+- **Novato:** comparação simples entre cartas.
+- **Aventureiro:** introdução de mais cartas e critérios.
+- **Mestre:** lógica mais complexa, com leitura de atributos e decisão automática de vitória.
+
+📌 *Conceitos abordados:* structs, comparação entre dados, entrada de dados, controle de fluxo.
+
+---
+
+## ♟️ Xadrez (Simples)
+
+Implementação simplificada de lógica de movimentos de peças:
+
+- **Novato:** movimentação básica de uma peça (ex: torre ou peão).
+- **Aventureiro:** múltiplas peças e validação de caminhos.
+- **Mestre:** simulação de jogadas com verificação de regras específicas.
+
+📌 *Conceitos abordados:* vetores e matrizes, lógica condicional, tratamento de regras.
+
+---
 
 ## 📁 Estrutura dos Arquivos
 
